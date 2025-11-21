@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/test_runner.dir/tests/test_main.c.o -o test_runner  libdsa_engine.a -lm 
