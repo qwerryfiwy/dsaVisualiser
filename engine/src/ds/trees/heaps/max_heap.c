@@ -1,8 +1,3 @@
-#include "dsa/core_types.h"
-#include "dsa/logger.h"
-#include <stdio.h>
-
-// Placeholder to ensure compilation
-void _stub_max_heap(SimulationContext* ctx) {
-    dsa_log_info(ctx, "Function max_heap not implemented yet.");
-}
+#include "dsa/trees.h"
+// Logic is identical to min_heap but with >
+void dsa_max_heap_demo(SimulationContext* ctx) { dsa_log_info(ctx, "Max Heap TODO"); }

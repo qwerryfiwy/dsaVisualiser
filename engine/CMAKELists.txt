@@ -1,0 +1,26 @@
+cmake_minimum_required(VERSION 3.10)
+project(dsa_engine C)
+
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_C_STANDARD_REQUIRED ON)
+
+# Include directories for public headers
+include_directories(include)
+
+# Source files - Recursively find ALL .c files in src
+file(GLOB_RECURSE SOURCES "src/*.c")
+
+# 1. Build the Static Library (The Engine)
+add_library(dsa_engine STATIC ${SOURCES})
+
+# 2. Build the Test Runner
+# We explicitly include the test runner source
+add_executable(test_runner tests/test_main.c)
+
+# Link the runner to the engine library and math library (for sqrt/pow)
+target_link_libraries(test_runner dsa_engine m)
+
+# Compiler flags (Turn off warnings for empty files/stubs to keep output clean)
+if(NOT MSVC)
+    target_compile_options(dsa_engine PRIVATE -w) 
+endif()

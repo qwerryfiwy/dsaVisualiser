@@ -1,0 +1,4 @@
+/mnt/d/Python/WEB DEV/faltu/dsaVisualiser/engine/build/CMakeFiles/dsa_engine.dir
+/mnt/d/Python/WEB DEV/faltu/dsaVisualiser/engine/build/CMakeFiles/test_runner.dir
+/mnt/d/Python/WEB DEV/faltu/dsaVisualiser/engine/build/CMakeFiles/edit_cache.dir
+/mnt/d/Python/WEB DEV/faltu/dsaVisualiser/engine/build/CMakeFiles/rebuild_cache.dir

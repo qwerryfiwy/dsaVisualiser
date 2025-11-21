@@ -1,8 +1,2 @@
-#include "dsa/core_types.h"
-#include "dsa/logger.h"
-#include <stdio.h>
-
-// Placeholder to ensure compilation
-void _stub_stock_span(SimulationContext* ctx) {
-    dsa_log_info(ctx, "Function stock_span not implemented yet.");
-}
+#include "dsa/stacks_queues.h"
+void dsa_stack_stock_span(SimulationContext* ctx, int32_t* prices, int size, int32_t* spans) { dsa_log_info(ctx, "Stock Span TODO"); }

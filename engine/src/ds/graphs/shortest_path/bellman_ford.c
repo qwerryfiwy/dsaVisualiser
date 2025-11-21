@@ -1,8 +1,4 @@
-#include "dsa/core_types.h"
-#include "dsa/logger.h"
-#include <stdio.h>
-
-// Placeholder to ensure compilation
-void _stub_bellman_ford(SimulationContext* ctx) {
-    dsa_log_info(ctx, "Function bellman_ford not implemented yet.");
+#include "dsa/graphs.h"
+void dsa_graph_bellman_ford(SimulationContext* ctx, Graph* g, int start) {
+    dsa_log_info(ctx, "Bellman Ford TODO");
 }
