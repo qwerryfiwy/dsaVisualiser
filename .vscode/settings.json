@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "core_types.h": "c",
+        "logger.h": "c"
+    }
+}
